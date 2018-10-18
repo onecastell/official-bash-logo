@@ -1,7 +1,16 @@
 <svg version="1.1" id="bash" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#222629;}
-	.st1{fill:#4DA925;}
+	.st1{
+		fill:#4DA925;
+		animation:blink 1s ease-in-out infinite;
+  	}
+  @keyframes blink{
+    50%{
+		fill:#222629;
+	}
+  }
+}
 	.st2{fill:#414c56;}
 </style>
 <g>
